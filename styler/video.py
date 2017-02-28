@@ -36,8 +36,6 @@ class Video:
             
             frames.append(frame)
         
-        #self.cpa.release()
-        #cv2.destroyAllWindows()
         # 5-1 /5-2 Read video and collect them
 
         self.frames = frames  # 5-3 let object have the result
